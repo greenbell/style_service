@@ -1,0 +1,34 @@
+PATH
+  remote: .
+  specs:
+    style_service (0.0.1)
+      json (>= 1.4.6)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.2.2)
+    crack (0.1.8)
+    diff-lcs (1.1.2)
+    json (1.4.6)
+    rspec (2.1.0)
+      rspec-core (~> 2.1.0)
+      rspec-expectations (~> 2.1.0)
+      rspec-mocks (~> 2.1.0)
+    rspec-core (2.1.0)
+    rspec-expectations (2.1.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.1.0)
+    webmock (1.6.1)
+      addressable (>= 2.2.2)
+      crack (>= 0.1.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (>= 1.0.0)
+  json (>= 1.4.6)
+  rspec (>= 2.0.1)
+  style_service!
+  webmock (>= 1.6)
