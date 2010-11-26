@@ -2,6 +2,7 @@
 
 require 'rubygems'
 require 'bundler'
+require 'openssl'
 
 ENV['BUNDLER_GEMFILE'] = File.expand_path("../../Gemfile", __FILE__)
 Bundler.setup
