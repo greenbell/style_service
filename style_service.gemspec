@@ -4,7 +4,7 @@ require File.expand_path('../init', __FILE__)
 Gem::Specification.new do |s|
   s.name                      = 'style_service'
   s.version                   = StyleService::VERSION
-  s.date                      = %q{2010-11-26}
+  s.date                      = %q{2010-11-29}
   s.authors                   = ["Dai Akatsuka"]
   s.email                     = %q{d.akatsuka@ist-corp.jp}
   s.description               = %q{Style Service's Application Platform Interface}
